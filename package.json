@@ -8,11 +8,6 @@
     ]
   },
   "scripts": {
-    "flask-dev": "FLASK_DEBUG=1 pip3 install -r requirements.txt && python3 -m flask --app api/index run -p 5328",
-    "next-dev": "next dev",
-    "dev": "concurrently \"pnpm run next-dev\" \"pnpm run flask-dev\"",
-    "build": "next build",
-    "lint": "next lint",
     "account": "yarn workspace @se-2/hardhat account",
     "chain": "yarn workspace @se-2/hardhat chain",
     "compile": "yarn workspace @se-2/hardhat compile",
